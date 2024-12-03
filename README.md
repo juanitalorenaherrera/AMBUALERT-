@@ -46,3 +46,34 @@ Frontend: HTML, CSS, JavaScript.
 Backend (futuro): Node.js, Express.js.
 Base de datos (futuro): MongoDB o Firebase.
 Herramientas móviles: Framework como React Native o Flutter para la app.
+
+
+
+
+
+
+Beneficios de colaborar en el proyecto AmbuAlert -
+Impacto positivo:
+Contribuirás a una plataforma que podría salvar vidas al facilitar el acceso a servicios de emergencia. Es una oportunidad de trabajar en algo significativo y con propósito.
+
+Portafolio profesional:
+Podrás agregar tu trabajo a tu portafolio, destacando tu experiencia en el diseño de una aplicación web y móvil con un enfoque en UX/UI. Perfecto para mostrar habilidades en diseño orientado a la salud y la tecnología.
+
+Colaboración en equipo:
+Trabajarás en un equipo multidisciplinario, aprendiendo y compartiendo ideas con programadores y otros profesionales. ¡Una gran oportunidad para networking y experiencia colaborativa!
+
+Reconocimiento:
+Tu nombre aparecerá en los créditos del proyecto, dándote visibilidad si el proyecto se publica. Esto puede ser un gran punto a tu favor para futuros empleadores o clientes.
+
+Flexibilidad:
+Podrás trabajar de forma remota, adaptando tus horarios según tu disponibilidad. Nos enfocamos en resultados, no en tiempos rígidos.
+
+Oportunidad de aprendizaje:
+Si estás interesado/a, también puedes aprender más sobre el desarrollo web y cómo se integra el diseño en las funcionalidades técnicas.
+
+Posibilidad de crecimiento:
+Si el proyecto crece y se convierte en algo más grande, podrías formar parte del equipo de manera más permanente o incluso recibir compensaciones futuras.
+
+
+
+
