@@ -31,6 +31,11 @@ nav ul li img {
     width: 50px;
 }
 
+.menu__items {
+    display: flex;
+    flex-direction: column;
+}
+
 main {
     padding: 20px;
 }
@@ -66,9 +71,9 @@ footer {
     padding: 20px;
     background-color: #333;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    /* position: relative; */
+    /* bottom: 0; */
+    /* width: 100%; */
 }
 
 .dashboard {
@@ -76,7 +81,7 @@ footer {
 }
 
 .sidebar {
-    width: 250px;
+    /* width: 250px; */
     background-color: #ff5c5c;
     padding: 20px;
 }
@@ -117,6 +122,16 @@ footer {
 .stats, .charts {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    .stats {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 
 .stat {
