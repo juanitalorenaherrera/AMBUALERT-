@@ -136,16 +136,16 @@ src/                        # Código fuente principal
     - Guarda componentes pequeños y reutilizables en `components/`.
     - Ejemplo: Botones, Cards, Modales.
 2. Páginas principales:
-  - Crea nuevas páginas completas dentro de `pages/`.
-  - Ejemplo: `Login.jsx`, `Register.jsx`, `Dashboard.jsx`.
+    - Crea nuevas páginas completas dentro de `pages/`.
+    - Ejemplo: `Login.jsx`, `Register.jsx`, `Dashboard.jsx`.
 3. Rutas:
-  - Define y exporta todas las rutas en la carpeta `routes/` y conéctalas desde `App.tsx`.
+    - Define y exporta todas las rutas en la carpeta `routes/` y conéctalas desde `App.tsx`.
 4. Hooks personalizados:
-  - Guarda hooks reutilizables (como lógica de autenticación o fetch) en `hooks/`.
+    - Guarda hooks reutilizables (como lógica de autenticación o fetch) en `hooks/`.
 5. Layout de la aplicación:
-  - Usa componentes en `layout/` (como `Header` y `Footer`) para mantener una estructura consistente.
+    - Usa componentes en `layout/` (como `Header` y `Footer`) para mantener una estructura consistente.
 6. Tipado con TypeScript:
-  - Centraliza interfaces y tipos en `types/` para mantener un código más limpio y fácil de mantener.
+    - Centraliza interfaces y tipos en `types/` para mantener un código más limpio y fácil de mantener.
 
 
 # Tecnologias para ejecutar el proyecto
