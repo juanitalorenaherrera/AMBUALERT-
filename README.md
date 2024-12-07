@@ -74,6 +74,80 @@ Si estás interesado/a, también puedes aprender más sobre el desarrollo web y 
 Posibilidad de crecimiento:
 Si el proyecto crece y se convierte en algo más grande, podrías formar parte del equipo de manera más permanente o incluso recibir compensaciones futuras.
 
+# Estructura del proyecto
+```
+public/                     # Archivos públicos y estáticos
+src/                        # Código fuente principal
+│
+├── assets/                 # Archivos estáticos como imágenes, íconos, etc.
+│
+├── components/             # Componentes reutilizables de la aplicación
+│
+├── hooks/                  # Hooks personalizados
+│
+├── layout/                 # Componentes de Layout (Header, Footer, Sidebar)
+│
+├── pages/                  # Páginas principales de la aplicación
+│
+├── routes/                 # Configuración de rutas
+│
+├── types/                  # Definiciones de tipos y modelos (TypeScript)
+│
+├── App.tsx                 # Componente principal de la aplicación
+├── index.css               # Estilos globales de la aplicación
+├── main.tsx                # Punto de entrada principal
+└── vite-env.d.ts           # Archivo de configuración para Vite y TypeScript
+
+```
+## 📁 Descripción de Carpetas y Archivos
+
+### `public/`
+
+- Contiene archivos estáticos públicos como íconos, imágenes y otros recursos que no pasan por el proceso de bundling.
+
+### `src/`
+
+- `assets/`: Recursos estáticos como imágenes, íconos, y otros elementos gráficos.
+
+- `components/`: Componentes reutilizables y pequeños bloques de la interfaz de usuario (UI).
+
+- `hooks/`: Hooks personalizados de React para lógica reutilizable.
+
+- `layout/`: Componentes de layout que estructuran la aplicación, como `Header`, `Footer` y `Sidebar`.
+
+- `pages/`: Páginas completas de la aplicación (ejemplo: Login, Register, Home).
+
+- `routes/`: Configuración centralizada de rutas de navegación.
+
+- `types/`: Definiciones de tipos y modelos para facilitar el uso de TypeScript.
+
+### Archivos principales:
+
+- `App.tsx`: Componente raíz donde se configuran las rutas y se integran todos los componentes.
+
+- `index.css`: Archivo de estilos globales de la aplicación.
+
+- `main.tsx`: Punto de entrada donde se renderiza la aplicación principal.
+
+- `vite-env.d.ts`: Archivo de configuración necesario para Vite y TypeScript.
+
+## 🚀 Cómo usar esta estructura
+1. Reutilización de componentes:
+  - Guarda componentes pequeños y reutilizables en `components/`.
+  - Ejemplo: Botones, Cards, Modales.
+2. Páginas principales:
+  - Crea nuevas páginas completas dentro de `pages/`.
+  - Ejemplo: `Login.jsx`, `Register.jsx`, `Dashboard.jsx`.
+3. Rutas:
+  - Define y exporta todas las rutas en la carpeta `routes/` y conéctalas desde `App.tsx`.
+4. Hooks personalizados:
+  - Guarda hooks reutilizables (como lógica de autenticación o fetch) en `hooks/`.
+5. Layout de la aplicación:
+  - Usa componentes en `layout/` (como `Header` y `Footer`) para mantener una estructura consistente.
+6. Tipado con TypeScript:
+  - Centraliza interfaces y tipos en `types/` para mantener un código más limpio y fácil de mantener.
+
+
 # Tecnologias para ejecutar el proyecto
 ## Node.js
 Se debe tener instalado node.js para poder ejecutar el proyecto, se ejecuta el siguiente comando en el terminal para ver si se tiene node en el PC
