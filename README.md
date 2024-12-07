@@ -74,6 +74,38 @@ Si estás interesado/a, también puedes aprender más sobre el desarrollo web y 
 Posibilidad de crecimiento:
 Si el proyecto crece y se convierte en algo más grande, podrías formar parte del equipo de manera más permanente o incluso recibir compensaciones futuras.
 
+# Tecnologias para ejecutar el proyecto
+## Node.js
+Se debe tener instalado node.js para poder ejecutar el proyecto, se ejecuta el siguiente comando en el terminal para ver si se tiene node en el PC
+```
+node --version
+```
+la version de node utilizada actualmente es: 
+```
+v20.10.0
+``` 
 
+## npm
+generalmente este gestor de paquetes viene instalado con node por defecto, se ejecuta el siguiente comando en el terminal para ver si se tiene npm en el PC
+```
+npm --version
+```
+la version de npm utilizada actualmente es:
+```
+10.8.2
+```
 
+# Comandos para inicializer el proyecto
 
+## instalacion de dependencias
+en la raiz del proyecto se ejecuta en la terminal el siguiente comando para instalar dependencias
+```
+npm install
+```
+
+## correr el servidor de desarrollo
+en la raiz del proyecto se ejecuta el siguiente comando en la terminar para correr el servidor de desarrollo
+```
+npm run dev
+```
+se ingeesa a la ruta desde el navegador localhost:5173
