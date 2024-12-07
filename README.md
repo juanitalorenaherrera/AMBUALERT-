@@ -133,8 +133,8 @@ src/                        # Código fuente principal
 
 ## 🚀 Cómo usar esta estructura
 1. Reutilización de componentes:
-  - Guarda componentes pequeños y reutilizables en `components/`.
-  - Ejemplo: Botones, Cards, Modales.
+    - Guarda componentes pequeños y reutilizables en `components/`.
+    - Ejemplo: Botones, Cards, Modales.
 2. Páginas principales:
   - Crea nuevas páginas completas dentro de `pages/`.
   - Ejemplo: `Login.jsx`, `Register.jsx`, `Dashboard.jsx`.
@@ -169,7 +169,7 @@ la version de npm utilizada actualmente es:
 10.8.2
 ```
 
-# Comandos para inicializer el proyecto
+# Comandos para inicializar el proyecto
 
 ## instalacion de dependencias
 en la raiz del proyecto se ejecuta en la terminal el siguiente comando para instalar dependencias
